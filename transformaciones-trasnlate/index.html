@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transformacion Rotacion</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color:white;
+            font-size:arial;
+            perspective: 200px;
+            perspective-origin: top;
+        }
+
+        .container{
+            border:1px solid red;
+        }
+
+        .container:hover .cuadrado{
+            /* transform: translate(x); */
+            transform: translate(-100px);
+            /* transform: translate(x,y); */
+            /* transform: translate(-90px,-90px); */
+            transform: translateZ(100px);
+        }
+        .cuadrado{
+            height: 200px;
+            width: 200px;
+            background-color: #7dc900;
+            margin:20px;
+           
+            transition: .3s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cuadrado">
+            Hola Mundo!
+        </div>
+    </div>
+    
+</body>
+</html>
