@@ -1,0 +1,33 @@
+.container{
+    display: block;
+    padding-left:15px ;
+    padding-right: 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.animation__container{
+    background-color: #ccc;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.animation{
+    width: 100%;
+}
+
+.animation__details{
+    text-align: center;
+    font-size: 30px;
+}
+
+.animation__container{
+    min-height: 400px;
+}
